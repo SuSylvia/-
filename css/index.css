@@ -1,0 +1,143 @@
+#box {
+  width: 100%;
+  height: 100%; }
+
+#top .container {
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center; }
+  #top .container .topfl {
+    float: left; }
+    #top .container .topfl li {
+      float: left; }
+      #top .container .topfl li a {
+        display: block;
+        line-height: 30px; }
+    #top .container .topfl li:nth-child(1) a {
+      padding: 0 15px 0 0; }
+    #top .container .topfl li:nth-child(2) a {
+      float: left;
+      color: #008842; }
+      #top .container .topfl li:nth-child(2) a p {
+        float: left; }
+      #top .container .topfl li:nth-child(2) a p:nth-child(1) {
+        padding: 0 11px 0 0; }
+      #top .container .topfl li:nth-child(2) a p:nth-child(2) span:nth-child(2) {
+        display: inline-block;
+        width: 12px;
+        height: 30px;
+        background: url(../img/top/header-img.png) no-repeat;
+        background-position: 2px 13px;
+        text-indent: -10000px;
+        transition: all 0.3s; }
+        #top .container .topfl li:nth-child(2) a p:nth-child(2) span:nth-child(2):hover {
+          transform: rotate(180deg);
+          background-position: -23px 13px; }
+      #top .container .topfl li:nth-child(2) a p:nth-child(2):hover {
+        background: #008842;
+        color: #fff; }
+      #top .container .topfl li:nth-child(2) a p:nth-child(2):hover span:nth-child(2) {
+        transform: rotate(180deg);
+        background-position: -22px 13px; }
+  #top .container .topfr li {
+    float: left;
+    padding: 0 0 0 20px; }
+    #top .container .topfr li a {
+      display: inline-block; }
+      #top .container .topfr li a .topfrspan {
+        width: 21px;
+        display: inline-block;
+        text-indent: -10000px;
+        background: url(../img/top/header-img.png) no-repeat;
+        margin-right: 4px; }
+      #top .container .topfr li a .topfrspan3 {
+        width: 10px;
+        display: inline-block;
+        text-indent: -10000px;
+        background: url(../img/top/header-img.png) no-repeat center;
+        margin-left: 4px;
+        background-position: 2px 13px;
+        transition: all 0.3s; }
+      #top .container .topfr li a:hover {
+        color: #008842; }
+      #top .container .topfr li a:hover .topfrspan3 {
+        transform: rotate(180deg); }
+  #top .container .topfr li:nth-child(3) a span:nth-child(1) {
+    background-position: -40px 6px; }
+  #top .container .topfr li:nth-child(4) a span:nth-child(1) {
+    background-position: -64px 6px; }
+  #top .container .topfr li:nth-child(5) a span:nth-child(1) {
+    background-position: -147px 6px; }
+  #top .container .topfr li:nth-child(6) a span:nth-child(1) {
+    background-position: -147px 6px; }
+  #top .container .topfr li:nth-child(7) a span:nth-child(1) {
+    background: url(../img/top/yingye.png) no-repeat center; }
+
+#search {
+  background: #E0E0E0;
+  padding-top: 14px; }
+  #search .container h1 {
+    font-size: 50px;
+    width: 148px;
+    height: 64px;
+    background: url(../img/search/logo.png) no-repeat center;
+    text-indent: -10000px;
+    margin-right: 143px; }
+  #search .container .searchfl {
+    font-size: 12px; }
+    #search .container .searchfl .searchT .search-form {
+      width: 527px; }
+      #search .container .searchfl .searchT .search-form .search-text {
+        width: 446px;
+        box-sizing: border-box;
+        border: 1px solid #008842;
+        height: 26px;
+        font-size: 12px; }
+      #search .container .searchfl .searchT .search-form .submit {
+        width: 80px;
+        background: #008842;
+        box-sizing: border-box;
+        border: 1px solid #008842;
+        height: 26px; }
+    #search .container .searchfl .searchB p span {
+      display: inline-block;
+      padding-right: 14px; }
+    #search .container .searchfl .searchB p .searchB_color {
+      line-height: 30px;
+      color: #008842; }
+  #search .container .searchfr {
+    width: 174px;
+    border: 1px solid #008842; }
+    #search .container .searchfr p {
+      color: #008842;
+      text-align: center;
+      height: 40px;
+      box-sizing: border-box; }
+      #search .container .searchfr p span {
+        display: inline-block; }
+      #search .container .searchfr p span:nth-child(1) {
+        width: 36px;
+        height: 40px;
+        line-height: 38px;
+        background: url(../img/search/header-img.png) no-repeat center;
+        background-position: -107px 12px;
+        font-size: 12px; }
+      #search .container .searchfr p span:nth-child(2) {
+        line-height: 38px;
+        font-size: 18px; }
+
+#banner {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative; }
+  #banner img {
+    width: 1920px;
+    height: 500px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=index.css.map */
