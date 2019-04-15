@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Document</title><script src="../js/jquery.js"></script></head><body><script>$(function(){
+            var a=[{a:1,"name":"xiaobai"},{a:1,"name":"xiaobai"},{a:1,"name":"xiaobai"}];
+            
+            $.ajax({
+                type: "post",
+                url: "../api/text.php",
+                async: true,
+                data: 'a='+JSON.stringify(a),
+                success: function (str) {
+                    console.log(str)
+                    // if (str == 'yes') {
+                    //     var cookie_"name"=$(".reg_tel input").val()
+                    //     document.cookie = "name="+ JSON.stringify(cookie_name);
+                        
+                    //     var trims=setTimeout(function(){
+                    //          window.open("list.html");
+                    //     }, 3000);
+                    //     var open_main= "登录成功,两秒后自动跳入列表页";
+                    //     tanchang(open_main);
+                     
+                    // //    window.history.go(-1);
+                    //     // isok = true; //开关，用于控制是否能注册
+                    // } else {
+                    //     var reg_open="密码或用户名不能为空"
+                    //     tanchang(open);
+                    // };
+                }
+
+            });
+        })</script></body></html>
